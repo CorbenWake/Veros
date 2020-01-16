@@ -1,0 +1,317 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1.2em;
+	background-color: #fff;
+	color: #555;
+}
+
+p {
+	padding: 0 0 20px 0;
+	line-height: 1.7em;
+}
+
+input[type="text"], input[type="password"], input[type="search"] {
+	color: #5d5d5d;
+	width: 60%;
+	padding: 8px;
+}
+
+input, textarea {
+	outline: none;
+	border: none;
+	border: solid 1px #teal;
+}
+
+h1, h2 {
+	font: normal 170% 'century gothic', arial;
+	margin: 0 0 15px 0;
+	padding: 15 0 5px 0;
+	color: #000; 
+}
+
+h2 {
+	font-size: 140%;
+}
+
+a, a:hover {
+	outline: none;
+	text-decoration: underline;
+	color: #aeb002;
+}
+
+ul {
+	margin: 2px 0 22px 17px;
+	font-size: 80%;
+}
+
+ul li {
+	margin: 0 0 6px 0;
+	padding: 0 0 4px 5px;
+	line-height: 1.5em;
+}
+
+hr {
+	border: 1px solid #f3f3f3;
+}
+
+/*.main {
+	background-image: url(../../1-tekstura-chernogo-melkogo-karbona.png);
+}*/
+
+.header {
+	background-color: teal;
+	height: 177px;
+	font-size: 0.8em;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+}
+
+.main, .logo, .menubar, .site_content, .footer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	width: 880px;
+	padding-bottom: 40px;
+}
+
+.logo h1, .logo h2 {
+	font: normal 300% 'century gothic', arial, sans-serif;
+	margin: 0 0 0 9px;
+}
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+	padding: 22px 0 0 0;
+	color: #fff;
+	letter-spacing: 0.1em;
+	text-decoration: none; 
+}
+
+.logo_text h2  {
+	font-size: 0.9em;
+	padding: 4px 0 0 0;
+	color: #999;
+}
+
+.menubar {
+	width: 900px;
+	height: 46px;
+}
+
+ul.menu {
+	float: right;
+}
+
+ul.menu li {
+	float: left;
+	padding: 0 0 0 9px;
+	list-style: none;
+	margin: 1px 2px 0 0;
+}
+
+ul.menu li a {
+	font: normal 100% 'trebuchet ms', sans-serif;
+	display: block;
+	height: 20px;
+	padding: 6px 35px 5px 28px;
+	color: #fff;
+	text-decoration: none;
+	transform: scale(1);
+ 	transition: 0.3s
+}
+ul.menu li.selected a {
+	color: #aeb002;
+}
+
+ul.menu li a:hover {
+	color: #e4ec04;
+	transform: scale(1.5);
+	text-transform: uppercase;
+  	transition: 0.3s
+}
+
+.site_content {
+	width: 880px;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+	background-color: white;
+	/*background-image: url(../../1-tekstura-chernogo-melkogo-karbona.png);*/
+}
+
+.sidebar_container {
+	float: right;
+	width: 224px;
+}
+
+.sidebar {
+	float: right;
+	width: 222px;
+	padding: 5%;
+	margin: 0 0 16px 0;
+	border: solid 1px teal;
+	border-radius: 5px;
+	background-color: #f9f9f9;  
+}
+
+.btn {
+	padding: 8px;
+	float: right;
+	background-color: white;
+	cursor: pointer;
+}
+
+.sidebar h2 {
+	color: #136cb2;
+}
+
+.lables_passreg_text {
+	font-size: 0.7em;
+	margin-top: 3%;
+	margin-left: 2%;
+}
+
+.sidebar ul {
+	margin: 0;
+}
+
+.sidebar ul li {
+	list-style-type: none;
+	margin: 0 0 0 0;
+}
+
+.sidebar .rating_sidebar {
+	float: right;
+}
+
+.content {
+	text-align: left;
+	width: 620px;
+	padding: 0 0 0 5px;
+	float: left;
+}
+
+.content .parsing_block a img, .lesson_block a img {
+	transform: scale(1);
+}
+
+.content .parsing_block a img:hover, .lesson_block a img:hover {
+	transform: scale(1.05);
+	transition: 0.5s;
+}
+
+.content a {
+	text-decoration: none;
+}
+
+.parsing_block, .lesson_block {
+	margin-bottom: 5%;
+}
+
+.parsing_block img, .lesson_block img {
+	border-radius: 5px;
+	border: 3px solid #aeb002;
+	width: 22%;
+}
+
+.article, .article2, .article_content, .article_content2  {
+	font-size: 0.9em;
+}
+
+.article_content, .article_content2 {
+	margin-bottom: 5%;
+}
+
+.info_lesson_page {
+	font: normal 100% 'trebuchet ms', sans-serif;
+	margin-bottom: 20px;
+}
+
+.info_lesson_page .value {
+	margin-right: 3%;
+	color: #aeb002;
+}
+
+.description_lesson {
+	font-size: 0.9em;
+	margin-bottom: 15%
+}
+
+.reviews {
+	margin-bottom: 4%;
+	font-size: 0.9em;
+}
+
+.review_name {
+	background-color: teal; 
+	color: white;
+	padding: 1%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.review_text {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+}
+
+.send {
+	margin-bottom: 4%;
+}
+
+.send input[type="text"], textarea {
+	border: solid 1px #3c3c3c;
+	margin-bottom: 2%
+}
+
+.send input[type="text"] {
+	width: 97%;
+}
+
+.send textarea {
+	width: 600px;
+	height: 200px;
+}
+
+.send input[type="submit"] {
+	float: left;
+	background-color: teal;
+	padding: 3%;
+	color: white;
+	border-radius: 5px;
+	margin-bottom: 4%;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	padding: 28px 0 5px 0;
+	text-align: center;
+	background-color: teal;
+	color: #a8aa94;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+}
+
+.footer a {
+	font: normal 100% 'trebuchet ms', sans-serif;
+	color: #a8aa94;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #e4ec04;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.footer p {
+	padding: 0 0 10px 0;
+}
