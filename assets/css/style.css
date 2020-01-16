@@ -288,6 +288,57 @@ ul.menu li a:hover {
 	margin-bottom: 4%;
 }
 
+.content_search {
+	margin: 5px 5px 0 0;
+	font: normal 100% 'trebuchet ms', sans-serif;
+	font-size: 0.7em;
+}
+
+.content_search a {
+	padding: 3px 4px 6px 6px;
+	color: #136cb2;
+}
+
+.content_search a:hover {
+	background-color: teal;
+	border-radius: 10px;
+	color: white;
+}
+
+.abcru_search {
+	margin: 5px 5px 0 0;
+	font: normal 100% 'trebuchet ms', sans-serif;
+	font-size: 0.7em;
+}
+
+.abcru_search a {
+	padding: 3px 4px 6px 4px;
+	color: #136cb2;
+}
+
+.abcru_search a:hover {
+	background-color: teal;
+	border-radius: 10px;
+	color: white;
+}
+
+.abc_search {
+	margin: 5px 5px 0 0;
+	font: normal 100% 'trebuchet ms', sans-serif;
+	font-size: 0.7em;
+}
+
+.abc_search a {
+	padding: 3px 4px 6px 4px;
+	color: #136cb2;
+}
+
+.abc_search a:hover {
+	background-color: teal;
+	border-radius: 10px;
+	color: white;
+}
+
 .footer {
 	width: 100%;
 	height: 100px;
